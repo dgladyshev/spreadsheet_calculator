@@ -4,6 +4,10 @@
 
 This exercise is one of my latest test assignments during job search. It was 2 hours speed-programming, so it's working fine, but still a draft in terms of architecture.
 
+##how to run
+
+To run application, just use command like this: "cat ~/program_dir/input.txt | java dglad.calc.App" while standing in /spreadcalc/target/classes folder. You can use Maven's "mvn clean compile" or open it with IntelliJ IDEA with (.iml file already there).
+
 ##assignment description
 
 Spreadsheet Calculator
