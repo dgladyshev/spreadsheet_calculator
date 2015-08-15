@@ -14,6 +14,7 @@ an expression. Expressions contain integers, cell references, and the operators 
 Write a program (in Java or Scala) to read a spreadsheet from ’stdin’ via file input.txt, evaluate the values of all the cells, and write the output to ’stdout’.
 
 The spreadsheet input is defined as follows:
+
 ° Line 1: two integers, defining the width and height ofthe spreadsheet (n, m)
 
 ° n*m lines each containing an expression which is the value of the corresponding cell
@@ -25,8 +26,13 @@ single floating—point value.
 So basically your programm must evaluate spreadsheets like this:
 
     | 1           | 2     | 3           |
+    
   --+-------------+-------+--------------+
+  
   A | A2          | 4 5 * | A1           |
+  
   --+-------------+-------+--------------+
-  B | A1 B2 / 2 + | 3     | 39 B1 B2 * / |
+  
+  B | A1 B2 / 2 + |  3    | 39 B1 B2 * / |
+  
   ------------------------+--------------+
