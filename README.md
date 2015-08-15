@@ -2,7 +2,7 @@
 
 ##comment
 
-This exercise is one of my latest test assignments during job search.
+This exercise is one of my latest test assignments during job search. It was 2 hours speed-programming, so it's working fine, but still a draft in terms of architecture.
 
 ##assignment description
 
