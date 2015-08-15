@@ -23,16 +23,6 @@ The spreadsheet input is defined as follows:
 Your program must output its data in the same format, but each cell should be reduced to a
 single floating—point value.
 
-So basically your programm must evaluate spreadsheets like this:
+So basically your program must evaluate spreadsheets like this:
 
-    | 1           | 2     | 3           |
-    
-  --+-------------+-------+--------------+
-  
-  A | A2          | 4 5 * | A1           |
-  
-  --+-------------+-------+--------------+
-  
-  B | A1 B2 / 2 + |  3    | 39 B1 B2 * / |
-  
-  ------------------------+--------------+
+![Alt text](/data_screenshot.png?raw=true)
